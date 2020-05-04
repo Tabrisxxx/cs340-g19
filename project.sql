@@ -1,7 +1,7 @@
 create table orders (
     id          integer(11)     Primary Key auto_increment,
     ordertype   varchar(255)    not null,
-    timePlaced  timestamp       not null,
+    timePlaced  datetime        not null,
     buyUser     varchar(25),
     sellUser    varchar(25),
     foreign key(buyUser) references user(username),
@@ -16,8 +16,8 @@ create table payment (
     buyUser     varchar(25),
     sellUser    varchar(25),
     foreign key(orderid) references orders(id),
-    foreign key(buyUser) references user(username),
-    foreign key(sellUser) references user(username)
+    foreign key(buyUser) references orders(buyUser),
+    foreign key(sellUser) references orders(sellUser)
 );
 create table user (
     username    varchar(25)     Primary key,
