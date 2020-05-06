@@ -21,7 +21,11 @@ values
     ('Turbo Thrusters Blueprint! Fly Lightspeed!','Blueprint',500,'SpaceShipsRUs'),
     ('RailGun attachment (Install manual included)','Weapon',23,'SpaceShipsRUs'),
     ('Splinter Bomb (Dark Matter not included)','Weapon',21,'ISellWeapons'),
-    ('EASY DIY HOMEMADE GUN BLUEPRINT','Blueprint',3243,'ISellWeapons');
+    ('EASY DIY HOMEMADE GUN BLUEPRINT','Blueprint',3243,'ISellWeapons'),
+    ('Beethovens music but in binary!', 'Music', 9999, 'PianosSurplus'),
+    ('Robot shark, great for kids! BRAND NEW! (Has lazers)', 'Toy', 35, 'noSpaceDrugsHere'),
+    ('Super potent stardust extract - Best in the Galaxy!', 'Material', 2424, 'noSpaceDrugsHere');
+
 
 insert into orders
     (id,ordertype,timePlaced,buyUser,sellUser)
