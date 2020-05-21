@@ -9,6 +9,7 @@ import Browse from './components/Browse';
 import Orders from './components/Orders';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
+import Search from './components/Search';
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 				<Route path="/browse" exact component={Browse} />
 				<Route path="/profile" exact component={Profile} />
 				<Route path="/orders" exact component={Orders} />
+				<Route path="/search" exact component={Search} />
 			</div>
 		</Router>
 	);
