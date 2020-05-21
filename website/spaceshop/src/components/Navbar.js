@@ -8,7 +8,7 @@ function Navbar() {
 	return (
 		<div class="ui inverted segment" style={{ 'border-radius': '0px' }}>
 			<div class="ui inverted secondary pointing menu">
-				<Link to="/">
+				<Link to="/home">
 					<a class="item">Home</a>
 				</Link>
 				<Link to="/browse">
