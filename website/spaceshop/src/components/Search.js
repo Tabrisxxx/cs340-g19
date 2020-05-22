@@ -3,7 +3,11 @@ import React from 'react';
 function Search() {
 	return (
 		<main>
-			<p>search</p>
+			<div class="ui input">
+				<input type="text" placeholder="Search Item..." />
+			</div>
+			<br />
+			<br />
 			<div class="ui internally celled grid">
 				<div class="row">
 					<div class="three wide column">
