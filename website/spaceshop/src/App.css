@@ -110,3 +110,32 @@ body {
 .home-container {
 	padding-left: 25px;
 }
+
+#no-account {
+	margin: 10px;
+	margin-left: 0px;
+	width: 200px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.sign-menu {
+	padding-left: 20px;
+	padding-bottom: 200px;
+}
+
+.info-box {
+	display: flex;
+	align-items: center;
+}
+label {
+	display: block;
+}
+input,
+label {
+	margin: 0.4rem 0;
+}
+
+.stats {
+	margin-left: 5px;
+}
