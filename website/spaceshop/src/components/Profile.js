@@ -1,5 +1,6 @@
 import React from 'react';
 import { getElementError } from '@testing-library/react';
+import Navbar from './Navbar';
 
 function Profile() {
 	function getuser() {
@@ -27,6 +28,7 @@ function Profile() {
 
 	return (
 		<main>
+			<Navbar />
 			<div>
 				<div class="sign-menu">
 					<h1>Your Profile</h1>
