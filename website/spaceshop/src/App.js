@@ -7,8 +7,7 @@ import Home from './components/Home';
 import Profile from './components/Profile';
 import Browse from './components/Browse';
 import Orders from './components/Orders';
-import Login from './components/Login';
-import SignUp from './components/SignUp';
+import Front from './components/Front';
 import Search from './components/Search';
 
 function App() {
@@ -16,8 +15,7 @@ function App() {
 		<Router>
 			<div>
 				<Navbar />
-				<Route path="/" exact component={Login} />
-				<Route path="/" exact component={SignUp} />
+				<Route path="/" exact component={Front} />
 				<Route path="/home" exact component={Home} />
 				<Route path="/browse" exact component={Browse} />
 				<Route path="/profile" exact component={Profile} />
