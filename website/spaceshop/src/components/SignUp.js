@@ -3,24 +3,35 @@ import React from 'react';
 function SignUp() {
 	return (
 		<main>
-		<div id="sign-up-menu" class="menu">
+		<div id="sign-up-menu" class="sign-menu">
+
+
 			<h1>SignUp</h1>
-			<h2>Username</h2>
-			<input type="text"></input>
-			<h2>Password</h2>
-			<input type="password"></input>
-			<h3>Address (optional)</h3>
-			<h4>zip</h4>
-			<input type="text"></input>
-			<h4>planet # from sun</h4>
-			<input type="text"></input>
-			<h4>X Coordinate on planet</h4>
-			<input type="text"></input>
-			<h4>Y Coordinate on planet</h4>
-			<input type="text"></input>
-			<h4>PO Box #</h4>
-			<input type="text"></input>
-			<button type="button">Complete</button>
+
+		<label for="username">Username (5-28 characters):</label>
+		<input type="text" id="signup-username" name="signup-username" required minlength="5" maxlength="28" size="28"></input>
+
+		<label for="password">Password (at least 7 characters long):</label>
+		<input type="password" id="name" name="name" required minlength="7" size="28"></input>
+
+		<h2>Optional Address:</h2>
+
+		<label for="zip">ZIP Code:</label>
+		<input type="text" id="zip" name="zip" size="28"></input>
+
+		<label for="planet">Planet # from star:</label>
+		<input type="text" id="planet" name="planet" size="28"></input>
+
+		<label for="xcoord">X Coordinate:</label>
+		<input type="text" id="xcoord" name="xcoord" size="28"></input>
+
+		<label for="ycoord">Y Coordinate:</label>
+		<input type="text" id="ycoord" name="ycoord" size="28"></input>
+
+		<label for="po">PO Box #:</label>
+		<input type="text" id="po" name="po" size="28"></input>
+
+		<button type="button">Register</button>
 		</div>
 		</main>
 	);
