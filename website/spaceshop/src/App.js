@@ -9,6 +9,7 @@ import Browse from './components/Browse';
 import Orders from './components/Orders';
 import Front from './components/Front';
 import Search from './components/Search';
+import Register from './components/Register';
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 			<div>
 				<Navbar />
 				<Route path="/" exact component={Front} />
+				<Route path="/register" exact component={Register} />
 				<Route path="/home" exact component={Home} />
 				<Route path="/browse" exact component={Browse} />
 				<Route path="/profile" exact component={Profile} />

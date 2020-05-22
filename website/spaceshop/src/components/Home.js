@@ -2,7 +2,7 @@ import React from 'react';
 
 function Home() {
 	return (
-		<main>
+		<main class="home-container">
 			<h1>Newest sales</h1>
 			<div class="ui internally celled grid">
 				<div class="row">
