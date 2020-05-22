@@ -1,8 +1,10 @@
 import React from 'react';
+import Navbar from './Navbar';
 
 function Search() {
 	return (
 		<main>
+			<Navbar />
 			<div class="ui input">
 				<input type="text" placeholder="Search Item..." />
 			</div>

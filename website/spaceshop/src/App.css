@@ -102,9 +102,11 @@ body {
 .about-us-component-container {
 	padding-bottom: 70px;
 }
-.login-container {
-	padding-bottom: 200px;
-}
+
 .front-container {
-	padding-left: 150;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.home-container {
+	padding-left: 25px;
 }
