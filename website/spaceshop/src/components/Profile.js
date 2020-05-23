@@ -1,6 +1,7 @@
 import React from 'react';
 import { getElementError } from '@testing-library/react';
 import Navbar from './Navbar';
+import { Link } from 'react-router-dom';
 
 function Profile() {
 	function getuser() {
@@ -54,9 +55,18 @@ function Profile() {
 					<label for="po">PO Box #:</label>
 					<input type="text" id="po" name="po" size="28" placeholder={getpo()}></input>
 
+				
 					<button onClick={editcomplete} type="button">
 						Complete Edit
 					</button>
+					<div class='button-list'>
+				<Link to="/newpost">
+					<button type="button">Post New Item</button>
+				</Link>
+				<Link to="/userposts">
+					<button type="button">View Open Items</button>
+				</Link>
+				</div>
 				</div>
 			</div>
 		</main>

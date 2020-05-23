@@ -2,203 +2,88 @@ import React from 'react';
 import Navbar from './Navbar';
 
 function Search() {
+
+	function addtocart(){
+
+	}
+
 	return (
 		<main>
 			<Navbar />
 			<div class="ui input">
 				<input type="text" placeholder="Search Item..." />
 			</div>
-			<br />
-			<br />
-			<div class="ui internally celled grid">
+				<div class="ui internally celled grid">
 				<div class="row">
-					<div class="three wide column">
-						<img />
+                <div class="four wide column">
+						<h1 id='first'>Title</h1>
 					</div>
-					<div class="ten wide column">
-						<p></p>
+					<div class="two wide column">
+						<h1>Type</h1>
 					</div>
-					<div class="three wide column">
-						<img />
+                    <div class="two wide column">
+						<h1>Listed Price</h1>
 					</div>
-				</div>
+					<div class="two wide column">
+						<h1>Image</h1>
+					</div>
+					<div class="two wide column">
+						<h1>Purchase</h1>
+					</div>
+                </div>
 				<div class="row">
-					<div class="three wide column">
-						<img />
+                <div class="four wide column">
+						<h1 id='first'></h1>
 					</div>
-					<div class="ten wide column">
-						<p></p>
+					<div class="two wide column">
+						<h1></h1>
 					</div>
-					<div class="three wide column">
-						<img />
+                    <div class="two wide column">
+						<h1></h1>
 					</div>
-				</div>
+					<div class="two wide column">
+					<img/>
+					</div>
+					<div class="two wide column">
+					
+					</div>
+                </div>
 				<div class="row">
-					<div class="three wide column">
-						<img />
+                <div class="four wide column">
+						<h1 id='first'></h1>
 					</div>
-					<div class="ten wide column">
-						<p></p>
+					<div class="two wide column">
+						<h1></h1>
 					</div>
-					<div class="three wide column">
-						<img />
+                    <div class="two wide column">
+						<h1></h1>
 					</div>
-				</div>
+					<div class="two wide column">
+					<img/>
+					</div>
+					<div class="two wide column">
+					
+					</div>
+                </div>
 				<div class="row">
-					<div class="three wide column">
-						<img />
+                <div class="four wide column">
+						<h1 id='first'></h1>
 					</div>
-					<div class="ten wide column">
-						<p></p>
+					<div class="two wide column">
+						<h1></h1>
 					</div>
-					<div class="three wide column">
-						<img />
+                    <div class="two wide column">
+						<h1></h1>
 					</div>
+					<div class="two wide column">
+					<img/>
+					</div>
+					<div class="two wide column">
+					
+					</div>
+                </div>
 				</div>
-				<div class="row">
-					<div class="three wide column">
-						<img />
-					</div>
-					<div class="ten wide column">
-						<p></p>
-					</div>
-					<div class="three wide column">
-						<img />
-					</div>
-				</div>
-				<div class="row">
-					<div class="three wide column">
-						<img />
-					</div>
-					<div class="ten wide column">
-						<p></p>
-					</div>
-					<div class="three wide column">
-						<img />
-					</div>
-				</div>
-				<div class="row">
-					<div class="three wide column">
-						<img />
-					</div>
-					<div class="ten wide column">
-						<p></p>
-					</div>
-					<div class="three wide column">
-						<img />
-					</div>
-				</div>
-				<div class="row">
-					<div class="three wide column">
-						<img />
-					</div>
-					<div class="ten wide column">
-						<p></p>
-					</div>
-					<div class="three wide column">
-						<img />
-					</div>
-				</div>
-				<div class="row">
-					<div class="three wide column">
-						<img />
-					</div>
-					<div class="ten wide column">
-						<p></p>
-					</div>
-					<div class="three wide column">
-						<img />
-					</div>
-				</div>
-				<div class="row">
-					<div class="three wide column">
-						<img />
-					</div>
-					<div class="ten wide column">
-						<p></p>
-					</div>
-					<div class="three wide column">
-						<img />
-					</div>
-				</div>
-				<div class="row">
-					<div class="three wide column">
-						<img />
-					</div>
-					<div class="ten wide column">
-						<p></p>
-					</div>
-					<div class="three wide column">
-						<img />
-					</div>
-				</div>
-				<div class="row">
-					<div class="three wide column">
-						<img />
-					</div>
-					<div class="ten wide column">
-						<p></p>
-					</div>
-					<div class="three wide column">
-						<img />
-					</div>
-				</div>
-				<div class="row">
-					<div class="three wide column">
-						<img />
-					</div>
-					<div class="ten wide column">
-						<p></p>
-					</div>
-					<div class="three wide column">
-						<img />
-					</div>
-				</div>
-				<div class="row">
-					<div class="three wide column">
-						<img />
-					</div>
-					<div class="ten wide column">
-						<p></p>
-					</div>
-					<div class="three wide column">
-						<img />
-					</div>
-				</div>
-				<div class="row">
-					<div class="three wide column">
-						<img />
-					</div>
-					<div class="ten wide column">
-						<p></p>
-					</div>
-					<div class="three wide column">
-						<img />
-					</div>
-				</div>
-				<div class="row">
-					<div class="three wide column">
-						<img />
-					</div>
-					<div class="ten wide column">
-						<p></p>
-					</div>
-					<div class="three wide column">
-						<img />
-					</div>
-				</div>
-				<div class="row">
-					<div class="three wide column">
-						<img />
-					</div>
-					<div class="ten wide column">
-						<p></p>
-					</div>
-					<div class="three wide column">
-						<img />
-					</div>
-				</div>
-			</div>
+		
 		</main>
 	);
 }

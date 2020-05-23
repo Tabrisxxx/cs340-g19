@@ -23,6 +23,9 @@ function Navbar() {
 				<Link to="/search">
 					<a class="item">Search</a>
 				</Link>
+				<Link to="/checkout">
+					<a class="item">Checkout</a>
+				</Link>
 			</div>
 		</div>
 	);
